@@ -43,6 +43,14 @@ fs.readFile(path.join(__dirname, '../index.html'), 'utf8', function (err,data) {
   write(dir + '/index.html', data);
 });
 
+// create package.json
+fs.readFile(path.join(__dirname, '../temp.json'), 'utf8', function (err,data) {
+  if (err) {
+    return console.log(err);
+  }
+  write(dir + '/package.json', data);
+});
+
 // add evernote sass build
 exec('evernotesass', function (error, stdout, stderr) {
   if (error) {

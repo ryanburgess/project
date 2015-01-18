@@ -1,31 +1,14 @@
 {
-  "name": "project-generator",
-  "version": "1.0.6",
-  "description": "A script to run to start new projects",
-  "main": "bin/project",
-  "preferGlobal": true,
-  "bin": {
-    "project": "./bin/project"
-  },
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "project",
-    "sass",
-    "scss",
-    "css",
-    "web",
-    "front-end",
-    "js",
-    "javascript",
-    "html",
-    "grunt"
   ],
   "dependencies": {
-    "fs": "0.0.2",
-    "mkdirp": "^0.5.0",
-    "path": "^0.11.14"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

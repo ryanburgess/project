@@ -10,6 +10,7 @@ A script to run to start new projects.
 Run ```project``` in a directory where you'd like to start a project.
 
 ## Release History
+* 1.0.6: create default package.json.
 * 1.0.5: add keywords to package.
 * 1.0.4: add index.html boilerplate.
 * 1.0.3: update devDependencies.
