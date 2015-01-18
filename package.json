@@ -1,6 +1,6 @@
 {
   "name": "project-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A script to run to start new projects",
   "main": "bin/project",
   "preferGlobal": true,
@@ -25,7 +25,8 @@
     "grunt-jsonlint": "^1.0.4",
     "grunt-newer": "^1.1.0",
     "grunt-sass": "^0.17.0",
-    "grunt-sassyclean": "^0.1.1"
+    "grunt-sassyclean": "^0.1.1",
+    "jshint-stylish": "^1.0.0"
   },
   "author": "Ryan Burgess <rburgess@evernote.com> (http://everernote.com/)",
   "license": "MIT"
