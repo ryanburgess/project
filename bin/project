@@ -8,10 +8,10 @@ var mkdirp    = require('mkdirp'),
   dir         = path.dirname(),
   exec        = require('child_process').exec,
   readme      = 'Project'+ '\n' +'============='+ '\n \n',
-  gitignore = '.DS_Store'+ '\n' + '~*'+ '\n' + '*.bak'+ '\n' + '*.tmp'+ '\n' + '.sass-cache'+ '\n' + '*.log'+ '\n' + 'node_modules/';
+  gitignore   = '.DS_Store'+ '\n' + '~*'+ '\n' + '*.bak'+ '\n' + '*.tmp'+ '\n' + '.sass-cache'+ '\n' + '*.log'+ '\n' + 'node_modules/';
 
 readme += '## Release History'+ '\n' +
-'* 0.1.0: Initial release.'+ '\n \n';
+'* 1.0.0: Initial release.'+ '\n \n';
 
 readme += '## Contributing'+ '\n \n' +
 '1. Fork it'+ '\n' +

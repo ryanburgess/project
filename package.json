@@ -1,6 +1,6 @@
 {
   "name": "project-generator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A script to run to start new projects",
   "main": "bin/project",
   "preferGlobal": true,
