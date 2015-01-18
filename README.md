@@ -10,6 +10,7 @@ A script to run to start new projects.
 Run ```project``` in a directory where you'd like to start a project.
 
 ## Release History
+* 1.0.4: add index.html boilerplate.
 * 1.0.3: update devDependencies.
 * 1.0.2: update generator script.
 * 1.0.1: update documenation.

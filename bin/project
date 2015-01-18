@@ -35,6 +35,14 @@ fs.readFile(path.join(__dirname, '../Gruntfile.js'), 'utf8', function (err,data)
   write(dir + '/Gruntfile.js', data);
 });
 
+// create index html
+fs.readFile(path.join(__dirname, '../index.html'), 'utf8', function (err,data) {
+  if (err) {
+    return console.log(err);
+  }
+  write(dir + '/index.html', data);
+});
+
 // add evernote sass build
 exec('evernotesass', function (error, stdout, stderr) {
   if (error) {
