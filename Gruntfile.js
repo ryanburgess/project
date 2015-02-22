@@ -29,7 +29,7 @@ module.exports = function(grunt) {
         indent: 2,
         quotmark: 'single',
         unused: false,
-        ignores: ['node_modules/**/*.js'],
+        ignores: ['node_modules/**/*.js', 'js/build/**/*.js'],
         globals: {
           jQuery: true
         },
